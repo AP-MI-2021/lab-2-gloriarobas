@@ -88,9 +88,9 @@ def main():
             break
         else:
             print("optiune invalida ! Reincercati !")
-
-test_is_palindrome()
-test_factorial()
-test_get_n_choose_k()
-test_get_largest_prime_below()
-main()
+    test_is_palindrome()
+    test_factorial()
+    test_get_n_choose_k()
+    test_get_largest_prime_below()
+if __name__ == '__main__':
+    main()
